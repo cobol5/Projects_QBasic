@@ -3,10 +3,7 @@ Qbasic Projects
 
 The programs in this repository are some of my earliest programming endeavors.  I started programming as a senior in high school using Microsoft Quick basic back in 2001.  
 
-In order to run these programs you will likely need dosbox installed, and a old copy of Qbasic:  
-[Dosbox](http://dosbox.com)  
-[Qbasic](http://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-compiler.htm)  
-
+In order to run these programs you will likely need [Dosbox](http://dosbox.com) installed, and a old copy of [Qbasic](http://www.qbasic.net/en/qbasic-downloads/compiler/qbasic-compiler.htm)  
 
 Programs
 --------------------------------------
