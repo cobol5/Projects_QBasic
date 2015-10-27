@@ -1,7 +1,7 @@
 DIM x(3), y(3) ' x and y coordinates
 DIM t, b, m 'top,middle, and bottom points
 DIM tm, mb, tb 'slopes
-DIM str, stp 'horizantal start and stop positions
+DIM str, stp 'horizontal start and stop positions
 RANDOMIZE TIMER
 SCREEN 12
 time = TIMER
@@ -11,7 +11,7 @@ y(i) = (RND * 480)
 x(i) = (RND * 640)
 NEXT i
 
-FOR i = 1 TO 3 'find out witch points are at the top and  bottum
+FOR i = 1 TO 3 'find out which points are at the top and  bottom
 IF i = 2 THEN GOTO two
 IF i = 3 THEN GOTO three
 
@@ -27,7 +27,7 @@ IF y(i) < y(1) AND y(i) < y(2) THEN t = i
 IF y(i) > y(1) AND y(i) > y(2) THEN b = i
 done:
 NEXT i
-FOR i = 1 TO 3 'find out witch point is in the middle
+FOR i = 1 TO 3 'find out which point is in the middle
 IF i <> t AND i <> b THEN m = i
 NEXT i
 
@@ -38,7 +38,7 @@ tm = ((x(m) - x(t)) / (y(m) - y(t))) 'find the slop between the top and middle p
 mb = ((x(b) - x(m)) / (y(b) - y(m))) 'find the slop between the middle and bottom points
 tb = ((x(b) - x(t)) / (y(b) - y(t))) 'find the slop between the top and bottom points
 str = x(t) + (tb * (v - y(t))) 'get the starting position to draw the fill line
-IF v < y(m) THEN stp = x(t) + (tm * (v - y(t))) 'fine the stoping position to draw the fill line
+IF v < y(m) THEN stp = x(t) + (tm * (v - y(t))) 'find the stoping position to draw the fill line
 IF v > y(m) THEN stp = x(m) + (mb * (v - y(m)))
 LINE (str, v)-(stp, v), clr
 NEXT v
