@@ -11,7 +11,7 @@ Programs
 **CLRSCALE**: This program will draw a bunch of pretty colors on the screen  
 **GRAPH**: This program draws a cosine wave and renders it in a graph as you would see in a heart monitor.  
 **MATH**: This program performs some arithmetic  
-**MFLIGHT**: I wrote this program as a demo for my friend in 2001, it renders a 3d wireframe of a plane and lets you rotate it.  
+**MFLIGHT**: I wrote this program as a demo for my friend in 2001, it renders a 3d wireframe of an airplane and lets you rotate it.  
 **MIKE3D**: This program renders a 3d diamond.  
 **POLYFILLL**: This program takes random triangles and fills them with random colors.  
-**SPLITTER**: When I wrote this program, I only had floppy disks to transfer files between machines, this program will take a large file and split it into pieces that can be re assembled.  
+**SPLITTER**: When I wrote this program, I only had floppy disks to transfer files between machines, I wrote this program so that I could transer files larger then 1.44MB.  This program will take a large file and split it into pieces that can be copied to another machine, then re-assembled.  
